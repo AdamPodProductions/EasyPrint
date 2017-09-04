@@ -588,12 +588,16 @@ public class EasyPrint {
 		return proper;
 	}
 
-	public static char[] GetAlphabetLowercase() {
+	public static char[] LowercaseAlphabet() {
 		return lowercase;
 	}
 
-	public static char[] GetAlphabetUppercase() {
+	public static char[] UppercaseAlphabet() {
 		return uppercase;
+	}
+	
+	public static String Characters() {
+		return characters;
 	}
 
 	public static String GetCharacters() {
